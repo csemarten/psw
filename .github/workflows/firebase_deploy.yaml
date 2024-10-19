@@ -31,4 +31,4 @@ jobs:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}  # Ensure this secret is set
         run: |
           npm install -g firebase-tools
-          firebase deploy --project your-project-id --token "$FIREBASE_TOKEN"
+          firebase deploy --project psw1-9c1cc --token "$FIREBASE_TOKEN"
